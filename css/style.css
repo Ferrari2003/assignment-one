@@ -1,0 +1,218 @@
+/* header banner */
+* {
+    margin: 0;
+}
+
+.banner-section {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+.banner-title h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.banner-title p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
+
+.contact-button {
+    background-color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 25px;
+}
+.contact-button:hover{
+    background-color: rgba(0, 0, 0, 0.727);
+    color: tomato;
+    transition: 1s;
+}
+
+.container {
+    margin-top: 130px;
+}
+
+.img-styles {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.img-styles img {
+    width: 100%;
+}
+
+.text-style {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.text-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.fa-solid {
+    color: lawngreen;
+    margin-top: 15px;
+}
+
+.my-plan-header {
+    margin-top: 130px;
+}
+
+.my-plan-text {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.my-plans-flex-style {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+
+}
+
+.my-plans-flex-style h3 {
+    font-weight: bold;
+}
+
+.my-plans-flex-style p {
+    color: gray;
+}
+
+
+.linear-gradient-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text-title {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.text-title h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+footer {
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background: #151414;
+    padding: 70px;
+}
+
+.text-styles h3 {
+    font-size: 40px;
+    color: white;
+    line-height: 60px;
+    font-weight: 700;
+
+}
+
+.text-styles p {
+    color: gray;
+}
+
+.email-phone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-styles img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.inputs h3 {
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 60px;
+
+}
+
+#email-fuild {
+    width: 250px;
+    height: 40px;
+    background: #151414;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#button-fuild {
+    width: 170.11px;
+    margin-top: 15px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+}
+#button-fuild:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
